@@ -2,7 +2,7 @@
 
 > Angular, Angular Material, RxJS fundementals with LocalCast Weather using the Kanban method.
 
-> View live demo: https://localcast-weather.krisztianharagos.now.sh/
+> View live demo: https://local-weather-app.krisztianharagos.vercel.app
 
 ![Angular Version](https://img.shields.io/badge/angular-v11-326839)
 [![CircleCI](https://circleci.com/gh/krisztianharagos/local-weather-app/tree/master.svg?style=svg)](https://circleci.com/gh/krisztianharagos/local-weather-app/tree/master)

@@ -11,6 +11,8 @@
     "test:coverage": "npm test -- --code-coverage",
     "lint": "run-p lint:ts lint:tsc",
     "e2e": "ng e2e",
+    "prenow:publish": "npm run build:prod",
+    "now:publish": "now --platform-version 2 dist/local-weather-app",
     "predocker:build": "npm run build",
     "docker:build": "cross-conf-env docker image build . -t $npm_package_config_imageRepo:$npm_package_version",
     "postdocker:build": "npm run docker:tag",
