@@ -1,27 +1,15 @@
-# LocalWeatherApp
+# LocalCast Weather
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+> Angular, Angular Material, RxJS fundementals with LocalCast Weather using the Kanban method.
 
-## Development server
+> View live demo: https://localcast-weather.krisztianharagos.now.sh/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Angular Version](https://img.shields.io/badge/angular-v11-326839)
+[![CircleCI](https://circleci.com/gh/krisztianharagos/local-weather-app/tree/master.svg?style=svg)](https://circleci.com/gh/krisztianharagos/local-weather-app/tree/master)
+[![DeepScan grade](https://deepscan.io/api/teams/12264/projects/15254/branches/301825/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=12264&pid=15254&bid=301825)
 
-## Code scaffolding
+<!-- [![Coverage Status](https://coveralls.io/repos/github/krisztianharagos/local-weather-app/badge.svg?branch=master)](https://coveralls.io/github/krisztianharagos/local-weather-app?branch=master) -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[![Kanban Board](https://img.shields.io/badge/Kanban-View%20Project%20Status-blue)](https://github.com/krisztianharagos/local-weather-app/projects/1)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![mat-style4](https://user-images.githubusercontent.com/822159/56008986-210ad880-5cac-11e9-812f-6514b2dc0f97.PNG)
