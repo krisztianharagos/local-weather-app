@@ -3,6 +3,7 @@ import { By } from '@angular/platform-browser'
 import { injectSpy } from 'angular-unit-test-helper'
 import { of } from 'rxjs'
 
+import { MaterialModule } from '../material.module'
 import { WeatherService } from '../weather/weather.service'
 import { fakeWeather } from '../weather/weather.service.fake'
 import { CurrentWeatherComponent } from './current-weather.component'
@@ -18,6 +19,7 @@ describe('CurrentWeatherComponent', () => {
     ])
     await TestBed.configureTestingModule({
       declarations: [CurrentWeatherComponent],
+      imports: [MaterialModule],
       providers: [{ provide: WeatherService, useValue: weatherServiceSpy }],
       // providers: [{ provide: WeatherService, useClass: WeatherServiceFake }],
     }).compileComponents()
@@ -59,7 +61,7 @@ describe('CurrentWeatherComponent', () => {
 
     // Assert on DOM
     const debugEl = fixture.debugElement
-    const titleEl: HTMLElement = debugEl.query(By.css('span')).nativeElement
+    const titleEl: HTMLElement = debugEl.query(By.css('.mat-title')).nativeElement
 
     expect(titleEl.textContent).toContain('Bethesda')
   })
