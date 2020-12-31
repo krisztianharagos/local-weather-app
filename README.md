@@ -12,4 +12,4 @@
 
 [![Kanban Board](https://img.shields.io/badge/Kanban-View%20Project%20Status-blue)](https://github.com/krisztianharagos/local-weather-app/projects/1)
 
-![Localcast Weather - material custom theme](https://user-images.githubusercontent.com/76129328/103200855-b752b800-48ee-11eb-8cbb-8732c8a99cd8.png)
+![Localcast Weather - search with city or zip code](https://user-images.githubusercontent.com/76129328/103418304-58ab6980-4b8e-11eb-9d94-0733ee7ab532.png)
